@@ -13,7 +13,9 @@ namespace Project1.Controllers
 
         internal async Task AppendToStreamAsync(string v, object any, EventData[] eventDatas)
         {
-            throw new NotImplementedException();
+            // Assuming _client is an instance of EventStoreClient from EventStore.Client package
+            var client = new EventStoreClient(settings);
+            await client.AppendToStreamAsync(v, any, eventDatas);
         }
 
         internal IAsyncEnumerable<object> ReadStreamAsync(object forwards, string streamName, int start)

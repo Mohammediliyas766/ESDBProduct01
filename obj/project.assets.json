@@ -4759,9 +4759,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohil\\ILIYAS\\Courses\\Devops\\DotNet\\Project1\\Project1\\Project1.csproj",
-      "projectName": "Project1",
-      "projectPath": "C:\\Users\\mohil\\ILIYAS\\Courses\\Devops\\DotNet\\Project1\\Project1\\Project1.csproj",
+      "projectUniqueName": "C:\\Users\\mohil\\ILIYAS\\Courses\\Devops\\DotNet\\Project1\\Project1\\ProductDb01.csproj",
+      "projectName": "ProductDb01",
+      "projectPath": "C:\\Users\\mohil\\ILIYAS\\Courses\\Devops\\DotNet\\Project1\\Project1\\ProductDb01.csproj",
       "packagesPath": "C:\\Users\\mohil\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mohil\\ILIYAS\\Courses\\Devops\\DotNet\\Project1\\Project1\\obj\\",
       "projectStyle": "PackageReference",

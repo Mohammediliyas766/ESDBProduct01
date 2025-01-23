@@ -5,12 +5,12 @@ services:
     image: eventstore/eventstore:latest
     environment:
       - EVENTSTORE_INSECURE=true
-      - EVENTSTORE_EXT_TCP_PORT=1113
-      - EVENTSTORE_HTTP_PORT=2113
+      - EVENTSTORE_EXT_TCP_PORT=1114
+      - EVENTSTORE_HTTP_PORT=2114
       - EVENTSTORE_ENABLE_ATOM_PUB_OVER_HTTP=true
     ports:
-      - "1113:1113"
-      - "2113:2113"
+      - "1114:1113"
+      - "2114:2113"
     volumes:
       - type: volume
         source: eventstore-data

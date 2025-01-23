@@ -138,7 +138,7 @@ namespace Project1.Controllers
         private async Task<T?> GetProjectionStateAsync<T>(string projectionName)
         {
             using var httpClient = new HttpClient();
-            var response = await httpClient.GetAsync($"http://localhost:2113/projection/{projectionName}/state");
+            var response = await httpClient.GetAsync($"http://localhost:2114/projection/{projectionName}/state");
             response.EnsureSuccessStatusCode();
             var json = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<T>(json);

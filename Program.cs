@@ -15,7 +15,7 @@ builder.Services.AddDbContext<ProductContext>(options =>
 
 // Configure EventStoreDB
 builder.Services.AddSingleton(new EventStoreClient(EventStoreClientSettings.Create(
-    "esdb://localhost:2113?tls=false")));
+    "esdb://localhost:2114?tls=false")));
 builder.Services.AddScoped<IEventStoreService, EventStoreService>();
 
 var app = builder.Build();
